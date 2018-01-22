@@ -11,4 +11,5 @@ Además, queremos que usuario tenga la opción de elegir entre diferentes estilo
 
 Ambiente de desarrollo:
 
-Como herramienta de desarrollo se eligió jQuery v3.2.1.
+ - Como herramienta de desarrollo se eligió jQuery v3.2.1.
+ - Para Testing de utilizó Mocha v3.0.0 y Chai 4.1.2
