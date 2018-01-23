@@ -1,19 +1,24 @@
-// traer el codigo que se testeara
-const app = require('../assets/js/index.js'); 
-const assert = require('chai').assert;
-/*const assertEqual = (value, expected) => {
-  if (value !== expected) {
-    throw new Error(`Expected '${value}' to equal '${expected}'`);
-  }
-};*/
-describe('isVowel()', () => {
-  it('debería devolver true para letra a', () => {
-    assert.equal(app.isVowel('a'),true);
+
+var calculator = require('../assets/js/index.js')
+var assert = require("assert")
+describe('Calculadora', function() {
+  it('should add two numbers', function () {
+    assert.equal(5, calculator.addNumber(2, 3));
+    assert.equal(9, calculator.addNumber(3, 6));
   });
-  it('debería devolver false para letra b', () =>{
-    assert.equal(app.isVowel('b'),false);
+
+  it('should substract two numbers', function () {
+    assert.equal(5, calculator.substractNumber(8, 3));
+    assert.equal(3, calculator.substractNumber(9, 6));
   });
-  it('debería lanzar excepción con dos chars', () =>{
-    assert.equal(app.isVowel('ab'), false);
+
+  it('should multiply two numbers', function () {
+    assert.equal(9, calculator.multiplyNumber(3, 3));
+    assert.equal(10, calculator.multiplyNumber(2, 5));
+  });
+
+  it('should divide two numbers', function () {
+    assert.equal(2, calculator.divideNumber(6, 3));
+    assert.equal(1, calculator.divideNumber(9, 9));
   });
 });
