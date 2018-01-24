@@ -1,21 +1,20 @@
 window.onload = function() {
 
   console.log("listo");
-
-  $("img").click(function() {
-    $("#back").attr("href", "index.html")
+  
+  $('body').cardify({
+    
   });
 
 };//onload
 
+function
+
+
+$('img').css("opacity","0.3");
 
 
 
-
-
-function jopafy() {
-  $('img').css("opacity","0.3");
-};
 
 
 
