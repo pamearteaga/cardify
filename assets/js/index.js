@@ -1,3 +1,27 @@
+window.onload = function() {
+
+  console.log("listo");
+
+  $("img").click(function() {
+    $("#back").attr("href", "index.html")
+  });
+
+};//onload
+
+
+
+
+
+
+function jopafy() {
+  $('img').css("opacity","0.3");
+};
+
+
+
+
+/*
+// test
 objCalculator = {
   addNumber: function(a, b){
     return a + b;
@@ -21,4 +45,4 @@ objCalculator = {
 // Si estamos en un ambiente Node importamos el código para poder usarlo en nuestras pruebas
 if ( typeof module != 'undefined' && module.exports ) {
   module.exports = objCalculator;
-}
+}*/
