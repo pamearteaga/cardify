@@ -1,7 +1,4 @@
-
-
-
-var calculator = require('../assets/js/index.js')
+var calculator = require('../test/test.spec.js')
 var assert = require("assert")
 describe('Calculadora', function() {
   it('should add two numbers', function () {
