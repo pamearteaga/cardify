@@ -1,3 +1,17 @@
+
+var calculator = require('../test/test.spec.js')
+var assert = require("assert")
+describe('Calculadora', function() {
+  it('should add two numbers', function () {
+    assert.equal(5, calculator.addNumber(2, 3));
+    assert.equal(9, calculator.addNumber(3, 6));
+  });
+});
+
+
+
+
+/*
 var calculator = require('../test/test.spec.js')
 var assert = require("assert")
 describe('Calculadora', function() {
@@ -21,3 +35,4 @@ describe('Calculadora', function() {
     assert.equal(1, calculator.divideNumber(9, 9));
   });
 });
+*/

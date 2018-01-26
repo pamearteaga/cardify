@@ -1,5 +1,15 @@
 
 // test
+const cahi = require('chai');
+const json = require('jsdom');
+const { JSDOM } = jsdom;
+let dom = new JSDOM('');
+
+
+
+
+/*
+// test
 objCalculator = {
   addNumber: function(a, b){
     return a + b;
@@ -20,3 +30,4 @@ objCalculator = {
 if ( typeof module != 'undefined' && module.exports ) {
   module.exports = objCalculator;
 }
+*/
