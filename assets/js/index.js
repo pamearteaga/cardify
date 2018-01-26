@@ -1,19 +1,23 @@
 window.onload = function() {
 
-  console.log("listo");
+
   
-  $("img").wrap("<figure></figure>");
+  const test = $("body").find("img");
+  
   //$('body').cardify({});
 
   $("img").mouseover(function(){
-    var caption = $(this).attr("alt");
+    const caption = $(this).attr("alt");
     $(this).css("opacity", "0.3");
-    $(this).before('<figcaption>' + caption + '</figcaption>');
-    $("figcaption").css({"font-family": "sans-serif", "font-size": "2em", "font-weight": "bold", "position": "relative", "top": "1em", "left": "1em"});
+    $(this).after('<figcaption>' + caption + '</figcaption>');
+    $("figcaption").css({"width": "200px","height": "auto", "color": "white", "font-family": "sans-serif", "font-size": "2em", "font-weight": "bold", "position": "absolute", "margin": "-15% 0 0 2%", "padding": "0", "display": "inline-block", "vertical-align": "top"});
+    $(this).wrap("<figure></figure>");
+    $("figure").css({"width": "auto", "height": "100%", "margin": "0", "padding": "0", "background": "linear-gradient(to bottom right, rgb(52,247,143), rgb(245,95,240))"});
   })
 
   $("img").mouseout(function(){
     $(this).css("opacity", "1");
+    $(this).unwrap();
     $("figcaption").remove();
   });
 
@@ -21,6 +25,7 @@ window.onload = function() {
 };//onload
 
 function cardify() {
+
 
 
 };
