@@ -1,38 +1,38 @@
 
-var calculator = require('../test/test.spec.js')
-var assert = require("assert")
-describe('Calculadora', function() {
-  it('should add two numbers', function () {
-    assert.equal(5, calculator.addNumber(2, 3));
-    assert.equal(9, calculator.addNumber(3, 6));
-  });
-});
+/*
+// Función test DOM falso
+// Importando jQuery
+const $ = require("jquery");
 
+const plugIn = {};
+// Función de test
+plugIn.imagen = function() {
+};
+plugIn.imagen();
 
-
+module.exports = plugIn;
+*/
 
 /*
-var calculator = require('../test/test.spec.js')
-var assert = require("assert")
-describe('Calculadora', function() {
-  it('should add two numbers', function () {
-    assert.equal(5, calculator.addNumber(2, 3));
-    assert.equal(9, calculator.addNumber(3, 6));
-  });
-
-  it('should substract two numbers', function () {
-    assert.equal(5, calculator.substractNumber(8, 3));
-    assert.equal(3, calculator.substractNumber(9, 6));
-  });
-
-  it('should multiply two numbers', function () {
-    assert.equal(9, calculator.multiplyNumber(3, 3));
-    assert.equal(10, calculator.multiplyNumber(2, 5));
-  });
-
-  it('should divide two numbers', function () {
-    assert.equal(2, calculator.divideNumber(6, 3));
-    assert.equal(1, calculator.divideNumber(9, 9));
-  });
-});
+// test prueba
+objCalculator = {
+  addNumber: function(a, b){
+    return a + b;
+  },
+  substractNumber: function(a, b){
+    return a - b;
+  },
+  multiplyNumber: function(a, b){
+    return a * b;
+  },
+  divideNumber: function(a, b){
+    return a / b;
+  }
+}
+// Estamos validando si nos encontramos en un ambiente de node
+// El "module" solo existe en node asi que para constatar que estamos en un ambiente node verificamos que la variable no sea indefinida.
+// Si estamos en un ambiente Node importamos el código para poder usarlo en nuestras pruebas
+if ( typeof module != 'undefined' && module.exports ) {
+  module.exports = objCalculator;
+}
 */

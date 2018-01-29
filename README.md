@@ -1,15 +1,43 @@
-# Cardify
+# CARDIFY
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
+Cardify Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto hover en las imágenes deseadas. Este efecto se produce a pasar el cursor sobre la imagen, se genera un degradé en colores y se muestra el contenido escrito en el atributo "alt". Ideal para complementar tus mejores proyectos.
 
-***
+## Ejemplo
 
-Elegimos el reto nº 2: CARDIFY. Queremos desarrollar un plugin que permita al usuario al pasar sobre las imágenes, aparezca el texto que contiene el atributo “alt” especificado en la etiqueta `<img>`.
-Además, queremos que usuario tenga la opción de elegir entre diferentes estilos, formas y colores, para personalizar sus proyectos.
+![img](https://image.ibb.co/i4hsKG/Fire_Shot_Capture_23_Jopafy_file_C_Users_Toshiba_Desktop_L.png)
 
-Ambiente de desarrollo:
+## ¿Cómo comenzar?
 
- - Como herramienta de desarrollo se eligió jQuery v3.2.1.
- - Para Testing de utilizó Mocha v3.0.0 y Chai 4.1.2
+### Global (navegador)
+
+- Incluya en su archivo html los siquientes scripts :
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="path-to-cardify.js"></script>
+```
+
+- Instalar con npm
+```
+npm install xxxxxx --save
+```
+
+## Uso
+
+- Incluir en tu archivo JS el siquiente código.
+```js
+// `container` es el selector del contenedor donde se buscarán todas las
+// imágenes a ser procesadas.
+$(container).cardify({});
+```
+
+
+## Requerimientos técnicos
+
+#### Dependecias de Desarrollo:
+ - jQuery v3.2.1
+ - chai Mocha v3.0.0 y Chai 4.1.2
+ - jsdom v11.6.1
+
+#### Dependencias de producción:
+
+
