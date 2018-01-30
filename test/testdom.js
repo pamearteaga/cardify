@@ -1,5 +1,3 @@
-
-/*
 // Función test DOM falso
 // Importando jQuery
 const $ = require("jquery");
@@ -11,7 +9,7 @@ plugIn.imagen = function() {
 plugIn.imagen();
 
 module.exports = plugIn;
-*/
+
 
 /*
 // test prueba
