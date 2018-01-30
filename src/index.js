@@ -1,8 +1,11 @@
 const $ = require("jquery");
 
 $(document).ready(function() {
-  $('body').cardify({});
+    //Llamando plug-in
+    $('body').cardify({});
 });
+//plug-in de cardify
+
 
 (function($) {
   $.fn.cardify = function() {
