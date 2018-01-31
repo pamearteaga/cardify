@@ -1,18 +1,4 @@
-// Test ejecutado sobre mi función en index.js.
-// Importando interfaz chai.
-const assert = require('chai').assert;
-// Importando documento sobre el que trabajaremos.
-const plugin = require('../src/index.js');
 
-// Definiendo primer bloque de prueba.
-describe('Envuelve en la etiqueta figure cada imagen', () => {
-  // Primera prueba
-  it('img debe estar envuelta en etiqueta figure', () => {
-    assert.equal(plugin.cardify((), true);
-  });
-});
-
-/*
 // Test ejecutado sobre DOM falso
 // Importando interfaz chai
 const chai = require('chai');
@@ -30,32 +16,49 @@ global.navigator = {
 // Importando jQuery
 const $ = require('jquery');
 // Importando documento a usar
-const testdom = require('../src/index.js');
+const testdom = require('../src/cardify.js');
 // Importando interfaz a usar
-const should = require("chai").should();
+const expect = require('chai').expect;
 
-describe('Comprobar que la etiqueta alt tenga un string', () => {
+
+/*
+// Importando función para testear
+const plugin = require('../src/cardify.js');
+// Test ejecutado sobre mi función en index.js.
+// Definiendo primer bloque de prueba.
+describe('Envuelve en la etiqueta figure cada imagen', () => {
+  // Primera prueba
+  it('img debe estar envuelta en etiqueta figure', () => {
+    chai.assert.equal(plugin.cardify((), true);
+  });
+});
+*/
+
+// Definiendo segundo bloque de prueba
+describe('Comprobar que la etiqueta imagen no esté vacía', () => {
+  // Primera prueba
+  it('img tiene contenido', () => {
+    $('img').length > 0;
+  });
+});
+
+// Definiendo tercer bloque de prueba
+describe('Comprobar que atributo alt tenga un string', () => {
   // Primera prueba
   it('Alt contiene un estring', () => {
-    const descrip = $('img').attr('alt');
-    descrip.should.be.a( 'string' );
+    expect('alt').to.be.a('string');
   });
 });
 
-
-// Definiendo primer bloque de prueba
-describe('Comprobar si hay etiquetas imagen', () => {
+// Definiendo cuarto bloque de prueba
+describe('Comprobar que atributo alt no esté vacio', () => {
   // Primera prueba
-  it('Devuelve true si encuentra etiquetas imagen', () => {
-    
-  });
-  // Segunda prueba
-  it('Devuelve false si no encuentra etiquetas imagen', () => {
-    
+  it('alt tiene contenido', () => {
+    $('img').attr('alt') !== '';
   });
 });
 
-*/
+
 
 
 
