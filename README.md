@@ -33,11 +33,15 @@ $(container).cardify({});
 
 ## Requerimientos técnicos
 
-#### Dependecias de Desarrollo:
+#### Dependecias de Producción:
  - jQuery v3.2.1
- - chai Mocha v3.0.0 y Chai 4.1.2
  - jsdom v11.6.1
 
-#### Dependencias de producción:
+#### Dependencias de Desarrollo:
+ - Mocha v3.0.0
+ - Chai 4.1.2
+ - Eslint 4.16.0
+ - Browserify 
+ - Uniq 1.0.1
 
 
