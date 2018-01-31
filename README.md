@@ -1,54 +1,47 @@
-# Cardify
+# CARDIFY
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
+Cardify Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto hover en las imágenes deseadas. Este efecto se produce a pasar el cursor sobre la imagen, se genera un degradé en colores y se muestra el contenido escrito en el atributo "alt". Ideal para complementar tus mejores proyectos.
 
-***
+## Ejemplo
 
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
-imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
-elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
-con el texto del atributo `alt` de la imagen.
+![img](https://image.ibb.co/i4hsKG/Fire_Shot_Capture_23_Jopafy_file_C_Users_Toshiba_Desktop_L.png)
 
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/cardify.git
-   ```
-
-3. Cuando hayas terminado tu producto, envía un Pull Request a la rama que tus
-   instructorxs este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
-
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` :smiley:.
-
-***
-
-## Instalación
+## ¿Cómo comenzar?
 
 ### Global (navegador)
 
+- Incluya en su archivo html los siquientes scripts :
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="path-to-cardify.js"></script>
 ```
 
+- Instalar con npm
+```
+npm install xxxxxx --save
+```
+
 ## Uso
 
+- Incluir en tu archivo JS el siquiente código.
 ```js
 // `container` es el selector del contenedor donde se buscarán todas las
 // imágenes a ser procesadas.
 $(container).cardify({});
 ```
 
-## Ejemplos
 
-...
+## Requerimientos técnicos
+
+#### Dependecias de Producción:
+ - jQuery v3.2.1
+ - jsdom v11.6.1
+
+#### Dependencias de Desarrollo:
+ - Mocha v3.0.0
+ - Chai 4.1.2
+ - Eslint 4.16.0
+ - Browserify 
+ - Uniq 1.0.1
+
+
