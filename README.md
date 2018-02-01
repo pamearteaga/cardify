@@ -1,6 +1,6 @@
-# CARDIFY
+# JOPAFY
 
-Cardify Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto hover en las imágenes deseadas. Este efecto se produce a pasar el cursor sobre la imagen, se genera un degradé en colores y se muestra el contenido escrito en el atributo "alt". Ideal para complementar tus mejores proyectos.
+Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto hover en las imágenes deseadas. Este efecto se produce a pasar el cursor sobre la imagen, se genera un degradé en colores y se muestra el contenido escrito en el atributo "alt". Ideal para complementar tus mejores proyectos.
 
 ## Ejemplo
 
@@ -13,21 +13,12 @@ Cardify Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el e
 - Incluya en su archivo html los siquientes scripts :
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="path-to-cardify.js"></script>
+<script src="lib/main.js"></script>
 ```
 
 - Instalar con npm
 ```
-npm install xxxxxx --save
-```
-
-## Uso
-
-- Incluir en tu archivo JS el siquiente código.
-```js
-// `container` es el selector del contenedor donde se buscarán todas las
-// imágenes a ser procesadas.
-$(container).cardify({});
+npm install jopafy --save
 ```
 
 
