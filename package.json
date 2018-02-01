@@ -1,6 +1,6 @@
 {
-  "name": "cardify",
-  "version": "1.0.0",
+  "name": "jopafy",
+  "version": "1.1.0",
   "description": "Proyecto final",
   "main": "index.js",
   "scripts": {
