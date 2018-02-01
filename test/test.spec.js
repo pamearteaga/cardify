@@ -3,7 +3,7 @@
 // Importando interfaz chai
 const chai = require('chai');
 // Importando jsdom, para trabajar con DOM falso
-const jsdom = require("jsdom");
+const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 // Creando DOM falso
 const dom = new JSDOM('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Jopafy</title><link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"></head><body><main><h1>Jopafy</h1><section><div class="foto"><img src="https://www.cookingideas.es/imagenes/2017/11/quimeraprincipal.jpg" alt="Soy hermoso"></div><div class="foto"><img src="https://i1.wp.com/www.cosasdegatos.es/wp-content/uploads/2013/01/maullido-gato-gatito.jpg" alt="Chiquitito <3"></div></section></main><script type="text/javascript" src="assets/js/index.js"></script><script src="node_modules/jquery/dist/jquery.js"></script></body></html>');
