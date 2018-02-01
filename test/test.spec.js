@@ -20,20 +20,6 @@ const testdom = require('../src/cardify.js');
 // Importando interfaz a usar
 const expect = require('chai').expect;
 
-
-/*
-// Importando función para testear
-const plugin = require('../src/cardify.js');
-// Test ejecutado sobre mi función en index.js.
-// Definiendo primer bloque de prueba.
-describe('Envuelve en la etiqueta figure cada imagen', () => {
-  // Primera prueba
-  it('img debe estar envuelta en etiqueta figure', () => {
-    chai.assert.equal(plugin.cardify((), true);
-  });
-});
-*/
-
 // Definiendo segundo bloque de prueba
 describe('Comprobar que la etiqueta imagen no esté vacía', () => {
   // Primera prueba
@@ -58,33 +44,3 @@ describe('Comprobar que atributo alt no esté vacio', () => {
   });
 });
 
-
-
-
-
-/*
-//Test prueba
-var calculator = require('../test/testdom.js')
-var assert = require("assert")
-describe('Calculadora', function() {
-  it('should add two numbers', function () {
-    assert.equal(5, calculator.addNumber(2, 3));
-    assert.equal(9, calculator.addNumber(3, 6));
-  });
-
-  it('should substract two numbers', function () {
-    assert.equal(5, calculator.substractNumber(8, 3));
-    assert.equal(3, calculator.substractNumber(9, 6));
-  });
-
-  it('should multiply two numbers', function () {
-    assert.equal(9, calculator.multiplyNumber(3, 3));
-    assert.equal(10, calculator.multiplyNumber(2, 5));
-  });
-
-  it('should divide two numbers', function () {
-    assert.equal(2, calculator.divideNumber(6, 3));
-    assert.equal(1, calculator.divideNumber(9, 9));
-  });
-});
-*/
