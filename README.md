@@ -17,7 +17,7 @@ Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto ho
 // incluir link de jQuery (en caso de que no lo tenga):
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-// link  para llamar a al plugin:
+// link  para llamar al plugin:
 <script type="text/javascript" src="https://cdn.rawgit.com/pamearteaga/cardify/jopafy/src/cardify.js"></script>
 
 //link para llamar a la libreria:
