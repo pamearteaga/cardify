@@ -6,19 +6,20 @@ Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto ho
 
 ![img](https://image.ibb.co/i4hsKG/Fire_Shot_Capture_23_Jopafy_file_C_Users_Toshiba_Desktop_L.png)
 
-## ¿Cómo comenzar?
+## ¿Cómo se instala?
 
-### Global (navegador)
-
-- Incluya en su archivo html los siquientes scripts :
+### Instalar con cdn:
+- Incluya en su archivo html los siquientes scripts:
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="lib/main.js"></script>
-```
 
-- Instalar con npm
-```
-npm install jopafy --save
+// incluir link de jQuery (en caso de que no lo tenga):
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+// link  para llamar al plugin:
+<script type="text/javascript" src="https://cdn.rawgit.com/pamearteaga/cardify/jopafy/src/cardify.js"></script>
+
+// link para llamar a la libreria:
+<script type="text/javascript" src="https://cdn.rawgit.com/pamearteaga/cardify/jopafy/lib/main.js"></script>
 ```
 
 
