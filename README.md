@@ -6,6 +6,10 @@ Jopafy es un Plugin para imágenes, podrás integrar en tu proyecto el efecto ho
 
 ![img](https://image.ibb.co/i4hsKG/Fire_Shot_Capture_23_Jopafy_file_C_Users_Toshiba_Desktop_L.png)
 
+## DEMO
+
+<https://jocelyn1912.github.io/demoJopafy/>
+
 ## ¿Cómo se instala?
 
 ### Instalar con cdn:
